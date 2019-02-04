@@ -1,9 +1,9 @@
 body {
-    background-color: skyblue
+    background-color: #ffffff;
 }
 #menu {
     overflow: hidden;
-    border: black;
+    border: #cccccc;
     border-style: ridge;
     border-width: 3px;
     ul {
@@ -11,7 +11,7 @@ body {
         padding: 0px 0px;
         list-style: none;
         line-height: normal;
-        background-color: yellow;
+        background-color: #ffffff;
     }
     li {
         display: inline-block;
@@ -25,16 +25,16 @@ body {
         text-align: center;
         font-size: 16px;
         font-weight: 500px;
-        color: skyblue;
+        color: #4aaaa5;
     }
     a:hover {
         text-decoration: none;
-        color: yellow;
+        color: #4aaaa5;
         background-color: black;
     }
     .current_page_item a {
         text-decoration: none;
-        color: yellow;
+        color: #4aaaa5;
         background-color: black;
     }
     .last {
@@ -42,12 +42,13 @@ body {
     }
 }
 .text-box {
-    background-color: yellow;
+    background-color: #ffffff;
     display: block;
-    float: left;
-    border: black;
+    align-content: center;
+    border: #dddddd;
     border-style: groove;
     border-width: 3px;
+    color: #777777;
     #width1 {
         width: 600px;
     }
@@ -59,27 +60,28 @@ body {
     }
 }
 .img {
-    border: yellow;
-    border-style: double;
-    border-width: 5px;
     float: right;
 }
 .header1 {
     font-family: 'Georgia';
     text-align: center;
+    color: #4aaaa5;
 }
 .img2 {
-    border: yellow;
-    border-style: double;
-    border-width: 5px;
     float: left;
     margin-top: 75px;
 }
 .form {
-    border: yellow;
+    border: #dddddd;
     border-style: double;
     border-width: 5px;
     width: 638px;
     height: 920px;
     margin-left: 300px;
+}
+.footer {
+    background-color: #666666;
+    width: 100%;
+    height: 70px;
+    margin-top: 600px;
 }
