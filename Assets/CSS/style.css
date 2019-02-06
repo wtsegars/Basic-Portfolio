@@ -51,6 +51,8 @@ body {
   border-style: groove;
   border-width: 3px;
   color: #777777;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .text-box #width1 {
   width: 600px;
@@ -63,7 +65,7 @@ body {
 }
 
 .img {
-  float: right;
+  margin-left: 50px;
 }
 
 .header1 {
@@ -73,8 +75,20 @@ body {
 }
 
 .img2 {
-  float: left;
-  margin-top: 75px;
+  margin-top: -355px;
+  margin-left: 590px;
+}
+
+.img3 {
+  margin-top: 10px;
+  margin-left: 700px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.img4 {
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 .form {
@@ -90,7 +104,46 @@ body {
   background-color: #666666;
   width: 100%;
   height: 70px;
-  margin-top: 600px;
+  margin-top: 95px;
+}
+
+.grid {
+  border: #dddddd;
+  border-width: 3px;
+  border-style: groove;
+  display: grid;
+  grid-gap: 15px 15px;
+  width: 100%;
+  height: 750px;
+  grid-template-columns: 31% 31% 31%;
+  grid-template-rows: 350px 350px 350px;
+}
+
+.box {
+  background-color: #ffffff;
+  color: #4aaaa5;
+  border: #777777;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.dummy-img {
+  position: relative;
+}
+
+.sm-tb {
+  width: 338px;
+  height: 20px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin-top: 317px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
