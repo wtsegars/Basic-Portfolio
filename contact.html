@@ -12,7 +12,7 @@
     <title>Contact Me</title>
 </head>
 <body>
-    <div id="menu" class="container">
+    <div id="menu">
     <ul>
         <li><a href="index.html" accesskey="1">Will Segars</a></li>
         <li><a href="bio.html" accesskey="2">About Me</a></li>
@@ -21,18 +21,48 @@
     </ul>
     </div>
     <h1>Contact Me:</h1>
-    <div class="text-box">
-        <div id="font">
-    <p>Below is a form that you can fill out and send to me at any time
+    <div class="card border-dark mb-3">
+        <div class="card-body text-secondary">
+    <p class="card-text">Below is a form that you can fill out and send to me at any time
        and I will try and get back with you as soon as I can. I only ask
        that you keep any messages on subject and to express any concerns
        in a civil manner.
     </p>
         </div>
     </div>
-    <br>
-    <br>
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW9Nwa0_xMrx36FO83BzH5bNT-8_C6FEAA6LXr-pSUthOGNQ/viewform?embedded=true" width="645" height="996" class="form">Loading...</iframe>
+<div class="card border-dark mb-3" style="max-width: 700px; margin-left: 3px;">
+    <div class="card-body text-secondary">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+        </div>
+        <div class="form-group">
+            <label for="validationCustom01">First Name</label>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required>
+        </div>
+        <div class="form-group">
+            <label for="validationCustom02">Last Name</label>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required>
+        </div>
+        <div class="form-group">
+            <label for="inputState">Subject</label>
+            <select id="inputState" class="form-control">
+              <option selected>Select One</option>
+              <option>General Inquiry</option>
+              <option>Job/Career</option>
+              <option>Personal</option>
+              <option>Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Message:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+</div>
     <div class="footer"></div>
 </body>
 </html>
