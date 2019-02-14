@@ -195,6 +195,10 @@ body {
   .img3 {
     margin-left: 550px;
   }
+
+  .form {
+    margin-left: 150px;
+  }
 }
 @media screen and (max-width: 768px) {
   body {
@@ -218,6 +222,10 @@ body {
 
   .img3 {
     margin-left: 300px;
+  }
+
+  .form {
+    margin-left: 50px;
   }
 }
 @media screen and (max-width: 640px) {
@@ -250,6 +258,12 @@ body {
 
   .header {
     color: #4aaaa5;
+  }
+
+  .form {
+    margin-right: 65 px;
+    height: 856px;
+    width: 500px;
   }
 }
 
